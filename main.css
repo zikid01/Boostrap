@@ -13,6 +13,30 @@ body{
     color: black;
 }
 
+/* .text-header{
+    position: absolute;
+    top: 50%;
+    right: 35%;
+}
+
+
+header h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold ;
+    font-size: 2.6rem;
+    text-shadow: 20px;
+}
+
+.text-header p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2.6rem;
+} */
 
 .carousel-inner{
     max-height: 900px;
@@ -36,7 +60,7 @@ body{
 }
 
 .card img{
-    max-height: 300px;
+    max-height: 400px;
 }
 
 .card-body{
