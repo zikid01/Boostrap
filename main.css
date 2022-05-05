@@ -44,7 +44,7 @@ header h1{
 }
 
 .section-text{ 
-    max-width: 1200px;
+    max-width: 1600px;
     width: 90%;
     margin: auto;
 
@@ -60,7 +60,7 @@ header h1{
 }
 
 .card img{
-    max-height: 400px;
+    max-height: 350px;
 }
 
 .card-body{
@@ -77,7 +77,181 @@ header h1{
     font-size: 1.2;
 }
 
-@media screen and (min-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+/* div 1 de la seccion salado */
+.salado-1{
+    background-image:linear-gradient(
+        0deg,
+        rgb(0,0,0,0.7),
+        rgb(0,0,0,0.7)
+        ), url(img/empanadas.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+}
+
+.salado-1 h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.salado-1 li{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/* div 1 de la seccion salado */
+.salado-2{
+    background-image:linear-gradient(
+        0deg,
+        rgb(0,0,0,0.7),
+        rgb(0,0,0,0.7)
+        ), url(img/locro.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+}
+.salado-2 h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.salado-2 li{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+
+
+
+
+
+
+/* div 1 de la seccion salado */
+.salado-3{
+    background-image:linear-gradient(
+        0deg,
+        rgb(0,0,0,0.7),
+        rgb(0,0,0,0.7)
+        ), url(img/Milanesa.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
+}
+.salado-3 h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.salado-3 li{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+/* div 1 de la seccion salado */
+.salado-4{
+    background-image:linear-gradient(
+        0deg,
+        rgb(0,0,0,0.7),
+        rgb(0,0,0,0.7)
+        ), url(img/pizza.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.salado-4 h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.salado-4 li{
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .salado-1{
+        border-radius: 10px;
+    }
     
+    .salado-1 h3{
+        font-size: 1.2rem;
+    }
+    
+    .salado-1 li{
+        font-size: 0.8rem;
+    }
+    
+    
+    /* div 1 de la seccion salado */
+    .salado-2{
+        border-radius: 10px;
+    }
+    .salado-2 h3{
+        font-size: 1.2rem
+    }
+    .salado-2 li{
+        font-size: 0.8rem;
+    }
+    
+    
+    /* div 1 de la seccion salado */
+    .salado-3{
+        border-radius: 10px;
+    }
+    .salado-3 h3{
+        font-size: 1.2rem
+    }
+    .salado-3 li{
+        font-size: 0.8rem;
+
+    }
+    
+    /* div 1 de la seccion salado */
+    .salado-4{
+        border-radius: 10px;
+    }
+    .salado-4 h3{
+        font-size: 1.2rem
+    }
+    .salado-4 p{
+        font-size: 0.8rem;
+    }
     
 }
