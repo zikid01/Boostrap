@@ -86,7 +86,9 @@ header h1{
 
 
 
-
+#main-saladas{
+    background-color: rgb(27, 26, 26);
+}
 
 
 /* div 1 de la seccion salado */
@@ -189,6 +191,8 @@ header h1{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 60px;
 }
 .salado-4 h3{
     font-weight: bold;
