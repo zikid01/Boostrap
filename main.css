@@ -12,3 +12,8 @@ body{
     font-weight: bold;
     color: black;
 }
+
+.carousel-inner{
+    max-height: 800px;
+    
+}
