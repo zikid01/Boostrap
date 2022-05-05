@@ -13,6 +13,7 @@ body{
     color: black;
 }
 
+
 .carousel-inner{
     max-height: 900px;
     
@@ -30,16 +31,17 @@ body{
 
 }
 
-.section-text p{
-    padding-top: 20px;
+.card{
+    padding-bottom: 0;
 }
 
 .card img{
-    max-height: 280px;
+    max-height: 300px;
 }
 
 .card-body{
-    color: black;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 .card-title{
@@ -49,4 +51,9 @@ body{
 
 .card-text{
     font-size: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+    
+    
 }
